@@ -1,1 +1,2 @@
-# Custom Commit Map Text
+# Custom Commit Map Text Creator
+ 
