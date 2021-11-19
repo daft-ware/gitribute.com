@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 
+# this program needs json library in order to further work with it 
+
 import json 
+
+# json file with letters and numbers of days it takes to write them in the commit map 
+
 
 json_letters = """
     {
