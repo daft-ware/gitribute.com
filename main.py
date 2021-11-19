@@ -43,7 +43,8 @@ def main():
     print(days)
 
     
+# this little trick makes an accessible library from code above and executes main() 
+
 if __name__ == '__main__':
     main()
-
     
