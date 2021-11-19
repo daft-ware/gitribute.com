@@ -20,3 +20,9 @@ json_letters = """
     }
 """
 ```
+
++ The data is parsed to parsed_letters so Python can further work with them 
+
+```py
+parsed_letters = json.loads(json_letters)
+```
