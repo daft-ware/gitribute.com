@@ -4,8 +4,8 @@
 
 import json 
 
-# json file with letters and numbers of days it takes to write them in the commit map 
 
+# json file with letters and number of days it takes to write them in the commit map 
 
 json_letters = """
     {
@@ -26,13 +26,20 @@ parsed_letters = json.loads(json_letters)
 
 phrase = input("Enter a phrase: ")
 
-
 def main():
+    
+    
+    # var days stores the number of days it's gonna take to write user's phrase, now set to zero 
+    
     days = 0
 
+    
+    # for loop that goes over every letter in phrase and adds number of days to days var based on json dataset 
+    
     for letter in phrase:
         days += int(parsed_letters[letter])
 
+  
     print(days)
 
     
