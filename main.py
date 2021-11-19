@@ -1,6 +1,6 @@
 import json 
 
-letters = """
+json_letters = """
 {
     "a" : {
         "days" : "34"
@@ -8,8 +8,8 @@ letters = """
 }
 """
 
+phrase = input("Enter a phrase: ")
 
-parsed_letters = json.loads(letters)
+parsed_letters = json.loads(json_letters)
 
 print(parsed_letters["a"])
-
