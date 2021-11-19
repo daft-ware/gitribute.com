@@ -16,9 +16,16 @@ json_letters = """
     }
 """
 
-phrase = input("Enter a phrase: ")
+
+# parsed_letters stores (surprisengly) parsed json_letters, so that Python is able to work with them
 
 parsed_letters = json.loads(json_letters)
+
+
+# var phrase stores string that users want to write in their commit map 
+
+phrase = input("Enter a phrase: ")
+
 
 def main():
     days = 0
