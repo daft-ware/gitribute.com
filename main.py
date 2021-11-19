@@ -1,9 +1,15 @@
 #!/usr/bin/env python
 
+import requests
+
 # this program needs json library in order to further work with it 
 
 import json 
 
+
+json_url = 'https://raw.githubusercontent.com/daft-ware/gitribute.com/main/letters.json'
+
+json_letters = requests.get(json_url)
 
 # json file with letters and number of days it takes to write them in the commit map 
 
